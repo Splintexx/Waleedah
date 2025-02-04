@@ -1,0 +1,63 @@
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: #f8f8f8;
+}
+
+/* Container Styling */
+.container {
+    text-align: center;
+    background-color: #f8f8f8;
+    border-radius: 10px;
+    padding: 50px;
+    box-shadow: 0 5px 15px rgba(255, 255, 255, 0.1);
+}
+
+/* GIF Styling */
+.gif {
+    width: 100%; /* Makes the GIF responsive */
+    max-width: 400px; /* Limits the max size */
+    margin-bottom: 20px;
+}
+
+/* Message Styling */
+.message {
+    font-size: 2.5rem;
+    color: rgb(240, 9, 9);
+    margin-bottom: 30px;
+}
+
+/* Button Styling */
+button {
+    font-size: 1.5rem;
+    padding: 10px 20px;
+    margin: 10px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
+
+.yes-button {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.no-button {
+    background-color: #FF5733;
+    color: white;
+}
+
+button:hover {
+    opacity: 0.9;
+}
